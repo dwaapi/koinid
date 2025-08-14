@@ -1,0 +1,118 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>koinid</title>
+  <link rel="icon" type="image/ico" href="/assets/img/ty/favicon.ico?v=333">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(90deg, #3b3724 0%, #AF9723 50%, #3b3724 100%);
+      background-size: cover;
+      background-attachment: fixed;
+    }
+    .swiper-button-next,.swiper-button-prev {
+        display: none !important;
+    }
+    .text-outline {
+      text-shadow:
+        2px 2px 0 #2189ef,
+        -2px 2px 0 #2189ef,
+        -2px -2px 0 #2189ef,
+        2px -2px 0 #2189ef;
+    }
+
+    .text-outline-blue {
+      text-shadow:
+        -3px -3px 0 #000000,
+        3px -3px 0 #000000,
+        -3px 3px 0 #000000,
+        3px 3px 0 #000000;
+    }
+    .text-outline-header {
+      text-shadow:
+        -2px -2px 0 #000000,
+        2px -2px 0 #000000,
+        -2px 2px 0 #000000,
+        2px 2px 0 #000000;
+    }
+  </style>
+</head>
+    <body class="bg-gray-100">
+    <!-- Header -->
+  <div class="py-4 flex justify-center items-center" style="background: rgba(0,0,0,0.2);">
+    <a href="https://dvip.me/5OwdxF">
+        <img src="https://images.9mbr.com/logo/koinid.png?=V22" alt="koinid Logo" class="h-12">
+    </a>
+  </div>
+  <div class="max-w-full mx-auto content-bg">
+    <div class="max-w-6xl mx-auto py-8">
+        <h1 class="text-center text-[23px] sm:text-3xl md:text-3xl lg:text-5xl font-bold text-white m-4 text-outline-header">
+            Daftar & Dapatkan Bonus Deposit Pertamamu!
+        </h1>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide">
+                    <a href="https://dvip.me/5OwdxF">
+                        <img src="https://images.9mbr.com/lp/koinid/banner-2.png" class="block mx-auto w-full max-w-6xl rounded-lg" alt="Slide 1">
+                    </a>
+                </div>
+            </div>
+            <!-- Pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <h1 class="text-center text-[18px] sm:text-2xl md:text-2xl lg:text-4xl font-bold text-white m-4 text-outline-header">
+           Claim Bonus Pertamamu Sekarang Juga!
+        </h1>
+        
+        <div class="text-center font-bold my-4 px-4"><a href="https://dvip.me/5OwdxF" class="text-center text-lg inline-block bg-gradient-to-b from-[#1a479e] 0% to-[#102d64] 100% text-white font-bold py-3 px-8 rounded-full transition rounded-full ring-2 ring-white">
+            Daftar Sekarang
+          </a>
+        </div>
+
+        <div class="text-center font-bold my-4 px-4">
+            <!-- Sub Text with WhatsApp -->
+            <p class="mt-4 sm:text-2xl md:text-3xl lg:text-3xl font-bold text-white text-outline-blue font-sans text-center">
+             <a href="https://wa.me/628895478456" class="text-white">Klaim dengan hubungi whatsappp kami 628895478456</a>
+            </p>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="text-center tracking-wider text-white text-sm py-6">
+            © 2025 koinid. All rights reserved.
+        </footer>
+    </div>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+</body>
+</html>
